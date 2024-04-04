@@ -28,9 +28,14 @@ void findRecipes(vector<string> userIngredients) {
     vector<vector<string>> recipes = {
         {"TOMATO", "CHEESE", "PASTA"},
         {"FLOUR", "BUTTER"},
-        {"LETTUCE", "TOMATO", "CUCUMBER", "OIL"}
+        {"LETTUCE", "TOMATO", "CUCUMBER", "OIL"},
+        {"CHICKEN", "RICE", "SOY"},
+        {"BEEF", "TOMATO", "ONION", "GARLIC", "PASTA"},
+        {"EGGS", "MILK", "FLOUR", "SUGAR"}, 
+        {"BEANS", "RICE", "AVOCADO", "TOMATO"},
+        {"POTATO", "EGGS", "ONION", "OIL"}
     };
-    vector<string> recipeNames = { "Macarroni", "Bread", "Salad" };
+    vector<string> recipeNames = { "Macarroni", "Bread", "Salad","Chicken with rice","Spaguettis","Pancakes","Burrito","Tortilla" };
 
     bool foundAny = false;
     for (int i = 0; i < recipes.size(); i++) {
